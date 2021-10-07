@@ -12,18 +12,21 @@ body {
   border-radius: 10px;
   box-shadow: 0px 31px 26px 4px rgb(0 0 0 / 10%);
   background-color: white;
-  /* height: 600px; */
+  height: 650px;
   padding-bottom: 25px;
 }
 .arriba {
   width: 100%;
   border-radius: 10px 10px 0% 0%;
 }
+h1{
+  margin: 0;
+}
 p {
   font-size: 16px;
   color: hsl(224, 23%, 55%);
   max-width: 85%;
-  margin: 15px auto;
+  margin: 0 auto;
 }
 .boton {
   background-color: hsl(245, 75%, 52%);
@@ -40,6 +43,10 @@ p {
 .texto {
   max-width: 80%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 70%;
 }
 .juntos {
   background-color: hsl(225, 100%, 98%);
@@ -79,9 +86,9 @@ p {
   text-decoration: none;
   color: hsla(245, 75%, 52%, 0.7);
 }
-.espacio {
+/* .espacio {
   margin: 25px 0;
-}
+} */
 .cancelar {
   color: hsl(224, 23%, 55%);
   font-weight: 700;
