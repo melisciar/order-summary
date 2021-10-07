@@ -3,6 +3,7 @@ body {
   color: hsl(223, 47%, 23%);
   background-image: url("images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
 }
 .card {
   text-align: center;
